@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECHOLUX | Energía Solar</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ICONOS -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- EMAILJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+
+    <nav>
+
+      <h1>ECHOLUX</h1>
+
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#cotizador">Cotizador</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+
+    <div class="hero-content">
+
+      <h2>Instalación de Sistemas Fotovoltaicos</h2>
+
+      <p>
+        Reduce tu factura de energía y empieza a ahorrar
+        con energía solar inteligente.
+      </p>
+
+      <a href="#cotizador" class="btn">
+        Cotizar Ahora
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="beneficios" id="beneficios">
+
+    <h2>¿Por qué elegir energía solar?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <i class="fa-solid fa-bolt"></i>
+        <h3>Ahorro</h3>
+        <p>
+          Reduce hasta un 80% tu factura de energía.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-solar-panel"></i>
+        <h3>Energía Limpia</h3>
+        <p>
+          Cuida el medio ambiente usando energía renovable.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-money-bill-trend-up"></i>
+        <h3>Inversión</h3>
+        <p>
+          Recupera tu inversión en pocos años.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COTIZADOR -->
+  <section class="cotizador" id="cotizador">
+
+    <h2>Cotiza tu Sistema Solar</h2>
+
+    <form id="cotizadorForm">
+
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Nombre completo"
+        required
+      >
+
+      <input
+        type="email"
+        name="correo"
+        placeholder="Correo electrónico"
+        required
+      >
+
+      <input
+        type="number"
+        name="consumo"
+        placeholder="Consumo mensual kWh"
+        required
+      >
+
+      <label class="label-file">
+        Subir imágenes del lugar
+      </label>
+
+      <input
+        type="file"
+        id="imagenes"
+        name="imagenes"
+        multiple
+        accept="image/*"
+      >
+
+      <div id="imagePreview"></div>
+
+      <button type="submit">
+        Enviar Cotización
+      </button>
+
+      <p id="mensaje"></p>
+
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <h3>ECHOLUX</h3>
+
+    <p>
+      Energía solar inteligente para hogares y empresas.
+    </p>
+
+    <p>
+      WhatsApp: 3022184042
+    </p>
+
+  </footer>
+
+  <!-- BOTÓN WHATSAPP -->
+  <a
+    href="https://wa.me/573022184042"
+    class="whatsapp"
+    target="_blank"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
